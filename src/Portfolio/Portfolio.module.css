@@ -1,0 +1,22 @@
+.portfolioBlock{
+    min-height: 90vh;
+    background:#f0efef;
+}
+
+.skillsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title{
+    border: 1px solid;
+    color: #353535;
+}
+
+.elements{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

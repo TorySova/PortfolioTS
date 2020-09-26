@@ -1,0 +1,21 @@
+.nav {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav a{
+    padding: 10px 26px;
+    color: #414141;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav a:hover{
+    padding: 10px 26px;
+    border-radius: 10px;
+    background:#414141;
+    color: white;
+    opacity: 0.8;
+}

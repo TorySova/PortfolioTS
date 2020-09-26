@@ -1,0 +1,23 @@
+.footerBlock{
+    /* height: 30vh; */
+    background:#f0efef;
+}
+
+.footerContainer{
+    flex-direction: column;
+
+}
+
+.connection{
+    border: 1px solid;
+    height: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    height: 50px;
+    width: 50px;
+    background: rgb(201, 199, 199);
+}
