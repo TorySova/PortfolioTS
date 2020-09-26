@@ -5,7 +5,7 @@
 
 .text{
     color: #353535;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 400px;
     /* background: rgb(185, 179, 179); */
     font-family: 'Montserrat', sans-serif;
@@ -14,7 +14,7 @@
 }
 
 .photo{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 300px;
     height: 400px;
     background:  rgb(185, 179, 179);

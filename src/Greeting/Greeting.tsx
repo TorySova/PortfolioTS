@@ -11,7 +11,8 @@ const Greeting = () => {
                     <h1>Виктория Некрасова</h1>
                     <p>и я front-end разработчик!</p>
                 </div>
-                <div className={style.photo}></div>
+                {/* <div className={style.photo}></div> */}
+                <img className={style.photo} src={"https://sun9-10.userapi.com/c623924/v623924423/13d8c/CbipZ1ZdFpM.jpg"} alt=""/>
             </div>
         </div>
     );

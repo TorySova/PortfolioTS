@@ -1,16 +1,22 @@
 import React from 'react';
 import style from './Project.module.css';
 
+type PropsType = {
+    title: string
+    img: string
+    deskription: string
+}
 
-const Project = () => {
+const Project = (props: PropsType) => {
     return (
         <div className={style.project}>
             <div className={style.icon}>
+                <img className={style.img} src={props.img} alt="dfg"/>
                 <button className={style.button}>Смотреть</button>
             </div>
-            <h3>Название проекта</h3>
+            <h3>{props.title}</h3>
             <span className={style.deskription}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum hic error similique voluptate tempora! Distinctio officia at earum totam sit.
+                {props.deskription}
             </span>
         </div>
     );
