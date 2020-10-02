@@ -1,5 +1,7 @@
 .block1{
-    height: 100vh;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
     background:#f0efef;
 }
 
@@ -15,7 +17,11 @@
 
 .photo{
     /* border: 1px solid; */
-    width: 300px;
+    width: 280px;
     height: 400px;
     background:  rgb(185, 179, 179);
+}
+
+.greetingContainer{
+  
 }
