@@ -14,7 +14,7 @@ const Portfolio = (props: PropsType) => {
     return (
         <div className={style.portfolioBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-            <h2 className={style.title}>Мои работы</h2>
+            <h2 className={style.title}>Проекты</h2>
             <div className={style.elements}>
                 {projectElement}
             </div>

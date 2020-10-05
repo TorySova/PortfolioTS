@@ -13,7 +13,7 @@ const Skills = (props:PropsType) => {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <h2 className={style.title}>My Skills</h2>
+                <h2 className={style.title}>Технологии</h2>
                 <div className={style.skills}>
                     {skillElement}
                 </div>

@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className={style.contactBlock}>
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
-                <h2 className={style.title}>Контакты</h2>
+                <h2 className={style.title}>Ваши контакты</h2>
                 <div className={style.form}>
                     <form className={style.elem} action="">
                         <input className={style.input} type="text" name="" id="" placeholder="Ваше имя..."/>

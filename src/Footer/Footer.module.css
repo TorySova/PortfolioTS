@@ -1,5 +1,5 @@
 .footerBlock{
-    /* height: 30vh; */
+    /* height: 20vh; */
     background:#f0efef;
 }
 
@@ -13,11 +13,14 @@
     height: 50px;
     width: 60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .item{
-    height: 50px;
-    width: 50px;
+    display: flex;
     
+    /* margin-right: 5px; */
+    height: 30px;
+    width: 30px; 
 }

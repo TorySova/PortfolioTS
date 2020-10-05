@@ -6,14 +6,14 @@ const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h3>Виктория Некрасова</h3>
+                <h4>Связаться со мной</h4>
                 <div className={style.connection}>
-                    <img src={'https://image.flaticon.com/icons/png/512/87/87390.png'} className={style.item}/>
-                    <img src={'https://www.flaticon.com/svg/static/icons/svg/25/25231.svg'} className={style.item}/>
-                    <img src={'https://www.pinclipart.com/picdir/big/81-815589_facebook-comments-black-fb-logo-png-clipart.png'} className={style.item}/>
-                    <img src={'https://image.flaticon.com/icons/png/512/16/16066.png'} className={style.item}/>
+                    <img src={'https://image.flaticon.com/icons/png/512/87/87390.png'} alt="instagram" className={style.item}/>
+                    <img src={'https://www.flaticon.com/svg/static/icons/svg/25/25231.svg'} alt="gitHub" className={style.item}/>
+                    <img src={'https://cdn.iconscout.com/icon/free/png-256/telegram-1867901-1580057.png'} alt="telegram" className={style.item}/>
+                    <img src={'https://www.nicepng.com/png/detail/19-198727_png-file-linkedin-icon-png-black.png'} alt="linkedin" className={style.item}/>
                 </div>
-                <h4>© 2020 Все права защищены</h4>
+                <h5>© 2020 Все права защищены</h5>
             </div>
         </div>
     )
