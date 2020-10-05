@@ -1,19 +1,14 @@
 .nav {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .nav a{
     color: #414141;
     text-decoration: none;
-    background-color: #f0efef;
-    padding: 8px 16px;
-    border-radius: 15px;
 }
-.nav a:hover{
-    border: 2px solid;
-}
+
 
 
 
