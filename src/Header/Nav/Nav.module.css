@@ -1,12 +1,14 @@
 .nav {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: flex-end; */
     flex-wrap: nowrap;
 }
 
 .nav a{
     color: #414141;
     text-decoration: none;
+    margin: 10px;
+    font-size: small;
 }
 
 

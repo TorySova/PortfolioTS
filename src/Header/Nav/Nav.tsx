@@ -4,7 +4,7 @@ import styleContainer from '../../Common/img/styles/Container.module.css'
 
 const Nav = () => {
   return (
-    <div className={`${styleContainer.container} ${style.nav}`}>
+    <div className={style.nav}>
       <a href="">Главная</a>
       <a href="">Скилы</a>
       <a href="">Проекты</a>
