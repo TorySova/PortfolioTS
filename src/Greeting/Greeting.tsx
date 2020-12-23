@@ -7,10 +7,10 @@ import Particles from 'react-particles-js';
 
 
 
-const particlesOptions = {
+const particlesOptions = {  
     "particles": {
         "number": {
-            "value": 150
+            "value": 70
         },
         "size": {
             "value": 3
