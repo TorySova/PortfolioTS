@@ -5,7 +5,6 @@ import style from './Skill.module.css';
 type PropsType = {
     title: string
     img: string
-    deskription: string
 }
 
 const Skill = (props: PropsType) => {
@@ -14,9 +13,7 @@ const Skill = (props: PropsType) => {
             <img alt="js" className={style.icon} src={props.img}/>
             {/* <div className={style.icon}>{props.img}</div> */}
             <h3>{props.title}</h3>
-            <span className={style.deskription}>
-                {props.deskription}
-            </span>
+            
         </div>
     );
 }

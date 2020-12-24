@@ -10,12 +10,20 @@ import Particles from 'react-particles-js';
 const particlesOptions = {  
     "particles": {
         "number": {
-            "value": 70
+            "value": 50
         },
         "size": {
             "value": 3
-        }
+        },
+        color: {
+            value: '#000000'
+          },
+          line_linked: {
+            color: '#000000',
+            
+          }
     },
+    
     "interactivity": {
         "events": {
             "onhover": {

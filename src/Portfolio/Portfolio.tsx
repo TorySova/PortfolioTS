@@ -3,7 +3,7 @@ import style from './Portfolio.module.css';
 import styleContainer from '../Common/img/styles/Container.module.css'
 import Project from './Project/Project';
 import { projectType } from '../State/State';
-
+import { Slide } from "react-awesome-reveal";
 
 type PropsType ={
     project: projectType
@@ -16,7 +16,7 @@ const Portfolio = (props: PropsType) => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
             <h2 className={style.title}>Проекты</h2>
             <div className={style.elements}>
-                {projectElement}
+                <Slide direction='up'>{projectElement}</Slide>
             </div>
             </div>
         </div>
