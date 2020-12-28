@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Greeting from './Greeting/Greeting';
 import Header from './Header/Header';
@@ -15,7 +14,6 @@ const App = () => {
       <Greeting />
       <Skills skills={state.skills}/>
       <Portfolio project={state.project}/>
-      {/* <Contact /> */}
       <Footer />
     </div>
   );

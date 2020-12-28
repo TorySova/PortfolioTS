@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Nav.module.css'
-import styleContainer from '../../Common/img/styles/Container.module.css'
 
 const Nav = () => {
   return (

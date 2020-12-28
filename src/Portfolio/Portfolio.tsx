@@ -10,7 +10,7 @@ type PropsType ={
 }
 
 const Portfolio = (props: PropsType) => {
-    let projectElement = props.project.map(it => <Project title={it.title} img={it.img} deskription={it.deskription}/>)
+    let projectElement = props.project.map((it, index) => <Project key={index} title={it.title} img={it.img} deskription={it.deskription}/>)
     return (
         <div className={style.portfolioBlock} id="project">
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>

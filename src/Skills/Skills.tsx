@@ -10,7 +10,7 @@ type PropsType = {
 }
 
 const Skills = (props: PropsType) => {
-    let skillElement = props.skills.map(it => <Skill title={it.title} img={it.img} />)
+    let skillElement = props.skills.map((it, index) => <Skill key={index} title={it.title} img={it.img} />)
     return (
         <div className={style.skillsBlock} id="skill">
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>

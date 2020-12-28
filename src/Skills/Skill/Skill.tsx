@@ -1,5 +1,4 @@
 import React from 'react';
-import { skillsType } from '../../State/State';
 import style from './Skill.module.css';
 
 type PropsType = {
