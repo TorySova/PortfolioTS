@@ -40,9 +40,9 @@ const Greeting = () => {
            <Particles className={style.particles}  params={particlesOptions}/>
             <div className={styleContainer.container}>
                 <div className={style.text}>
-                    <span>Привет, меня зовут</span>
-                    <h2>Виктория Некрасова</h2>
-                    <p>и я front-end разработчик!</p>
+                    <span>Hello, I am </span>
+                    <h2>Victoriia Nekrasova</h2>
+                    <p>I am React developer!</p>
                 </div>
                 {/* <div className={style.photo}></div> */}
                 <div className={style.photoContainer}>
