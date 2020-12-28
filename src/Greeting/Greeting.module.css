@@ -1,8 +1,8 @@
 .block1{
     display: flex;
     align-items: center;
-    min-height: 95vh;
-    background: rgb(255, 255, 255);
+    min-height: 100vh;
+    
     
     /* background: #353535; */
     background:#f0efef;
@@ -17,7 +17,7 @@
 }
 
 .photoContainer{
-    width: 400px;
+    width: 320px;
     /* height: 500px; */
     padding: 15px;
     border: 1px solid#929291;
@@ -32,7 +32,12 @@
     height: 100%;
     object-fit: cover;
     z-index: 0;
+    transition: margin-right 2s;
 }
+ /* .photo:hover{
+    transition: 0.5s
+     transform: scale(-1, 1)
+    } */
 .particles{
     position: absolute;
     color:black;

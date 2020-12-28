@@ -15,7 +15,7 @@ const App = () => {
       <Greeting />
       <Skills skills={state.skills}/>
       <Portfolio project={state.project}/>
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

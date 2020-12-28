@@ -12,9 +12,9 @@ type PropsType ={
 const Portfolio = (props: PropsType) => {
     let projectElement = props.project.map(it => <Project title={it.title} img={it.img} deskription={it.deskription}/>)
     return (
-        <div className={style.portfolioBlock}>
+        <div className={style.portfolioBlock} id="project">
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-            <h2 className={style.title}>Проекты</h2>
+            <h2 className={style.title}>My project</h2>
             <div className={style.elements}>
                 <Slide direction='up'>{projectElement}</Slide>
             </div>

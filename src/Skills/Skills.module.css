@@ -1,5 +1,5 @@
 .skillsBlock{
-    min-height: 70vh;
+    min-height: 60vh;
     background: #ffffff;
 }
 
@@ -11,7 +11,7 @@
 .title{
     font-family: 'Montserrat', sans-serif;
     color: #353535;
-    margin-top: 50px;
+    margin-top: 20px;
     /* border: 1px solid; */
 }
 

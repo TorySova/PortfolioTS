@@ -9,6 +9,12 @@
     text-decoration: none;
     margin: 10px;
     font-size: small;
+    border-bottom: 2px solid white;
+}
+.nav a:hover{
+    border-bottom: 2px solid;
+    transition: all 0.2s ease;
+    transform: scale(1.1, 1.1);
 }
 
 

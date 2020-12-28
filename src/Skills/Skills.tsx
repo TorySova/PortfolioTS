@@ -12,13 +12,14 @@ type PropsType = {
 const Skills = (props: PropsType) => {
     let skillElement = props.skills.map(it => <Skill title={it.title} img={it.img} />)
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id="skill">
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <h2 className={style.title}>Технологии</h2>
+                <h2 className={style.title}>My skills</h2>
                 
                     <div className={style.skills}>
                         <Zoom>{skillElement}</Zoom>
                     </div>
+                    
                 
             </div>
 

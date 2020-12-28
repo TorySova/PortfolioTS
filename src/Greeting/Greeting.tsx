@@ -36,7 +36,7 @@ const particlesOptions = {
 
 const Greeting = () => {
     return (
-        <div className={style.block1}>
+        <div className={style.block1} id="main">
            <Particles className={style.particles}  params={particlesOptions}/>
             <div className={styleContainer.container}>
                 <div className={style.text}>

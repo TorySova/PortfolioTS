@@ -43,24 +43,24 @@ const state: stateType = {
         },
         {
             title: "Git",
-            img: "https://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png"
+            img: "https://avatars3.githubusercontent.com/u/18133?s=200&v=4"
         },
     ],
     project: [
         {
-            title: "Project 1",
-            deskription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus quod ipsa incidunt nostrum ut, nulla a tempora non consectetur?",
-            img: "https://data.1freewallpapers.com/download/flowers-white-macro-minimalism-1920x1080.jpg"
+            title: "Social network",
+            deskription: "https://github.com/TorySova/wey_samurai_ts",
+            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
         },
         {
-            title: "Project 2",
-            deskription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus quod ipsa incidunt nostrum ut, nulla a tempora non consectetur?",
-            img: "https://minimalwork.ru/wp-content/uploads/2019/04/minimalizm-po-polochkam-1-1024x681.jpg"
+            title: "Todolist",
+            deskription: "https://github.com/TorySova/ToDoList",
+            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
         },
         {
-            title: "Project 3",
-            deskription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus quod ipsa incidunt nostrum ut, nulla a tempora non consectetur?",
-            img: "https://prostonail.com/wp-content/uploads/2018/05/bench-accounting-49909-unsplash.jpg"
+            title: "React quiz",
+            deskription: "https://torysova.github.io/test-react/",
+            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
         }
     ]
 }

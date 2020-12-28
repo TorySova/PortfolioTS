@@ -1,10 +1,12 @@
 .contactBlock{
-    /* min-height: 40vh; */
+    min-height: 40vh;
     background:#ffffff;
+    
 }
 
 .contactContainer{
     flex-direction: column;
+    display: flex;
 }
 
 .title{
@@ -25,7 +27,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
 }
 
 .input{
@@ -60,4 +62,5 @@
 
 .button:hover{
     background: #000;
+    transition: all 0.5s ease;
 }

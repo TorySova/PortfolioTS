@@ -1,6 +1,6 @@
 .footerBlock{
     /* height: 20vh; */
-    background:#f0efef;
+    background:#ffffff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,5 +16,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.connectionElem{
+    width: 30px;
+    height: 30px;
+}
+.connectionElem:hover{
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s ease;
 }
 

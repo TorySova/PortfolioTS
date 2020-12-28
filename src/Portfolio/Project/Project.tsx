@@ -11,13 +11,15 @@ const Project = (props: PropsType) => {
     return (
         <div className={style.project}>
             <div className={style.icon}>
-                <img className={style.img} src={props.img} alt="dfg"/>
-                <button className={style.button}>Смотреть</button>
+                <img className={style.img} src={props.img} alt="dfg" />
+                <a className={style.button} href={props.deskription} target="_blank">
+                    {props.title}
+                </a>
             </div>
-            <h3>{props.title}</h3>
-            <span className={style.deskription}>
+            {/* <h3>{props.title}</h3> */}
+            {/* <span className={style.deskription}>
                 {props.deskription}
-            </span>
+            </span> */}
         </div>
     );
 }
