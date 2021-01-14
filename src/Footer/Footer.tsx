@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className={style.footerBlock} id="contact">
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h4>Contact with me</h4>
+                <h4>Contact me</h4>
                 <div className={style.connection}>
                     <a href="https://www.instagram.com/nekrsova/"  rel='noopener'>
                         <img src={'https://image.flaticon.com/icons/png/512/87/87390.png'} alt='instagram' className={style.connectionElem} />

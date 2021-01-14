@@ -42,7 +42,7 @@ const Greeting = () => {
                 <div className={style.text}>
                     <span>Hello, I am </span>
                     <h2>Victoriia Nekrasova</h2>
-                    <p>I am React developer!</p>
+                    <p>I`m a React developer!</p>
                 </div>
                 <div className={style.photoContainer}>
                     <img className={style.photo} src={photo} alt="" />
