@@ -49,17 +49,22 @@ const state: stateType = {
     project: [
         {
             title: "Social network",
-            deskription: "https://github.com/TorySova/wey_samurai_ts",
+            deskription: "https://torysova.github.io/wey_samurai_ts/#/login",
             img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
         },
         {
             title: "Todolist",
-            deskription: "https://github.com/TorySova/ToDoList",
+            deskription: "https://torysova.github.io/ToDoList/#/login",
             img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
         },
         {
             title: "React quiz",
             deskription: "https://torysova.github.io/test-react/",
+            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
+        },
+        {
+            title: "Weather",
+            deskription: "https://torysova.github.io/Weather-openweathermap/",
             img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
         }
     ]
