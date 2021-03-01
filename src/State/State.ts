@@ -35,7 +35,7 @@ const state: stateType = {
         },
         {
             title: "React",
-            img: "https://cdn.worldvectorlogo.com/logos/react.svg"
+            img: "https://cdn.auth0.com/blog/react-js/react.png"
         },
         {
             title: "Redux",
