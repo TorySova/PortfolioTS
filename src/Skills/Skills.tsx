@@ -15,14 +15,10 @@ const Skills = (props: PropsType) => {
         <div className={style.skillsBlock} id="skill">
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>My skills</h2>
-                
-                    <div className={style.skills}>
-                        <Zoom>{skillElement}</Zoom>
-                    </div>
-                    
-                
+                <div className={style.skills}>
+                    <Zoom>{skillElement}</Zoom>
+                </div>
             </div>
-
         </div>
     );
 }

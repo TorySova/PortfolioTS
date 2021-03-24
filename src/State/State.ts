@@ -62,11 +62,11 @@ const state: stateType = {
             deskription: "https://torysova.github.io/test-react/",
             img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
         },
-        {
-            title: "Weather",
-            deskription: "https://torysova.github.io/Weather-openweathermap/",
-            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
-        }
+        // {
+        //     title: "Weather",
+        //     deskription: "https://torysova.github.io/Weather-openweathermap/",
+        //     img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
+        // }
     ]
 }
 

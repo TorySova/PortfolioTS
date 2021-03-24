@@ -4,9 +4,6 @@ import styleContainer from '../Common/img/styles/Container.module.css';
 import photo from '../Common/img/styles/photo.jpg';
 import Particles from 'react-particles-js';
 
-
-
-
 const particlesOptions = {  
     "particles": {
         "number": {
