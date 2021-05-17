@@ -43,9 +43,8 @@
 }
 
 .button:hover{
-   
-    transition: all 0.5s ease;
+    /* transition: all 0.5s ease;
     padding: 15px 31px;
     font-size: larger;
-    text-decoration: underline;
+    text-decoration: underline; */
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Zoom } from 'react-awesome-reveal';
 import style from './Project.module.css';
 
 type PropsType = {
@@ -13,7 +14,7 @@ const Project = (props: PropsType) => {
             <div className={style.icon}>
                 <img className={style.img} src={props.img} alt="project" />
                 <a className={style.button} href={props.deskription} rel='noopener'>
-                    {props.title}
+                <Zoom>{props.title}</Zoom>
                 </a>
             </div>
         </div>
