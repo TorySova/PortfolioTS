@@ -12,7 +12,7 @@ const Project = (props: PropsType) => {
         <div className={style.project}>
             <div className={style.icon}>
                 <img className={style.img} src={props.img} alt="project" />
-                <a className={style.button} href={props.deskription} rel='noopener'>
+                <a className={style.button} href={props.deskription} rel='noopener' target={'blank'}>
                 {props.title}
                 </a>
             </div>
