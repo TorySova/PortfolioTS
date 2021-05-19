@@ -1,5 +1,5 @@
 .portfolioBlock{
-    min-height: 90vh;
+    min-height: 80vh;
     background:#f0efef;
 }
 
@@ -16,7 +16,7 @@
 
 .elements{
     /* border: 1px solid; */
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

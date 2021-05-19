@@ -45,27 +45,31 @@ const state: stateType = {
             title: "Git",
             img: "https://avatars3.githubusercontent.com/u/18133?s=200&v=4"
         },
+        {
+            title: "Material-UI",
+            img: "https://webmonstr.com/static/course/pressa/9-material/images/1.png"
+        },
     ],
     project: [
         {
             title: "Social network",
             deskription: "https://torysova.github.io/wey_samurai_ts/#/login",
-            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
+            img: "https://i.pinimg.com/564x/68/6b/07/686b07e7a8a09447677e69f67ec8e784.jpg"
         },
         {
             title: "Todolist",
             deskription: "https://torysova.github.io/ToDoList/#/login",
-            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
+            img: "https://i.pinimg.com/564x/6b/60/14/6b6014a6ea8d146062de5714bb1b2666.jpg"
         },
         {
             title: "React quiz",
             deskription: "https://torysova.github.io/test-react/",
-            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
+            img: "https://i.pinimg.com/564x/c3/ca/35/c3ca35fea2eed3054df3f309030b3a49.jpg"
         },
         {
             title: "Weather",
             deskription: "https://torysova.github.io/Weather-openweathermap/",
-            img: "https://image.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg"
+            img: "https://i.pinimg.com/564x/ab/96/a8/ab96a8d990b339f53202e32777481a63.jpg"
         }
     ]
 }

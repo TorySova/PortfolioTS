@@ -21,7 +21,7 @@ const Footer = () => {
                         <img src={'https://cdn2.iconfinder.com/data/icons/social-icons-circular-black/512/linkedin-512.png'} alt='linkedin' className={style.connectionElem} />
                     </a>
                 </div>
-                <h5>© 2020 All rights reserved</h5>
+                <h5>© 2021 All rights reserved</h5>
             </div>
         </div>
     )

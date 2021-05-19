@@ -9,3 +9,9 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media screen and (max-width: 420px) {
+    .header{
+        justify-content: center;
+    }
+}
