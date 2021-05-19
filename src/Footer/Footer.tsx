@@ -8,9 +8,7 @@ const Footer = () => {
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h4>Contact me</h4>
                 <div className={style.connection}>
-                    <a href="https://www.instagram.com/nekrsova/"  rel='noopener'>
-                        <img src={'https://image.flaticon.com/icons/png/512/87/87390.png'} alt='instagram' className={style.connectionElem} />
-                    </a>
+                    
                     <a href="https://github.com/TorySova"  rel='noopener'>
                         <img src={'https://www.flaticon.com/svg/static/icons/svg/25/25231.svg'} alt='github' className={style.connectionElem} />
                     </a>
